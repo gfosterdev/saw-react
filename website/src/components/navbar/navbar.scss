@@ -1,0 +1,60 @@
+@import "../../styles/variables.scss";
+
+.navbar {
+	display: flex;
+	flex-direction: column;
+
+	.contactinfo {
+		padding: 0.5rem 3rem;
+		background-color: #1f43e2;
+		color: $off-white;
+		display: flex;
+		justify-content: end;
+		gap: 2.5rem;
+
+		.infoItem {
+			font-size: 0.85rem;
+			display: flex;
+			gap: 0.4rem;
+			align-items: center;
+
+			.text {
+				font-weight: 600;
+			}
+		}
+	}
+
+	.underneath {
+		padding: 1rem 3rem;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		background: $off-white;
+		color: $grey-font;
+
+		.logo {
+			font-size: 2rem;
+			.logoText {
+				text-transform: upper;
+				font-weight: 600;
+			}
+		}
+
+		.links {
+			display: flex;
+			font-size: 1.5rem;
+			gap: 3rem;
+
+			.link {
+				.linkTitle {
+					font-weight: 600;
+
+					&:hover {
+						text-decoration: underline;
+						color: $main-font;
+					}
+				}
+			}
+		}
+	}
+}
