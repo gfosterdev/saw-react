@@ -1,0 +1,40 @@
+@import "../../styles/variables.scss";
+
+.contact {
+	display: flex;
+	flex-direction: column;
+	background-color: $off-white;
+	color: $grey-font;
+	padding: 1rem 5rem;
+
+	.heading {
+		font-size: 2rem;
+		color: $grey-dark-font;
+	}
+
+	.container {
+		display: flex;
+		flex-direction: row;
+		justify-content: flex-start;
+		align-items: center;
+		gap: 0.5rem;
+
+		.main {
+			color: $grey-dark-font;
+			font-size: 1.2rem;
+		}
+
+		.subtext {
+			font-size: 1rem;
+		}
+	}
+
+	.copyright {
+		align-self: flex-end;
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		gap: 0.5rem;
+		color: $grey-dark-font;
+	}
+}

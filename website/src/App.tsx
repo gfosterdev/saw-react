@@ -6,6 +6,7 @@ import Home from "./pages/home/Home";
 import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom";
 
 import "./styles/globals.scss";
+import Footer from "./components/footer/Footer";
 
 const App = () => {
 	const Layout = () => {
@@ -13,6 +14,7 @@ const App = () => {
 			<div className="main">
 				<Navbar />
 				<Outlet />
+				<Footer />
 			</div>
 		);
 	};

@@ -1,5 +1,7 @@
 import "./home.scss";
 
+import cardImage from "../../res/images/ref2.jpeg";
+
 const Home = () => {
 	return (
 		<div className="home">
@@ -77,6 +79,50 @@ const Home = () => {
 								</div>
 							</li>
 						</ul>
+					</div>
+				</div>
+			</section>
+			<section className="casestudies">
+				<div className="heading">
+					<span className="main">Case Studies</span>
+					<span className="sub">
+						A glimpse into what Smith & Williamson can provide for
+						your customers
+					</span>
+				</div>
+				<div className="cards">
+					<div className="card">
+						<img src={cardImage} alt="" className="thumbnail" />
+						<span className="description">
+							Lorem ipsum dolor sit amet, consectetur adipisicing
+							elit. Unde soluta nobis ipsa! Maiores repudiandae
+							praesentium illo ea culpa! Minima quas incidunt
+							nostrum labore! Magnam pariatur consequatur sunt.
+							Commodi tenetur natus nemo mollitia obcaecati atque
+							molestiae, iusto eos beatae eius eligendi!
+						</span>
+					</div>
+					<div className="card">
+						<img src={cardImage} alt="" className="thumbnail" />
+						<span className="description">
+							Lorem ipsum dolor sit amet, consectetur adipisicing
+							elit. Unde soluta nobis ipsa! Maiores repudiandae
+							praesentium illo ea culpa! Minima quas incidunt
+							nostrum labore! Magnam pariatur consequatur sunt.
+							Commodi tenetur natus nemo mollitia obcaecati atque
+							molestiae, iusto eos beatae eius eligendi!
+						</span>
+					</div>
+					<div className="card">
+						<img src={cardImage} alt="" className="thumbnail" />
+						<span className="description">
+							Lorem ipsum dolor sit amet, consectetur adipisicing
+							elit. Unde soluta nobis ipsa! Maiores repudiandae
+							praesentium illo ea culpa! Minima quas incidunt
+							nostrum labore! Magnam pariatur consequatur sunt.
+							Commodi tenetur natus nemo mollitia obcaecati atque
+							molestiae, iusto eos beatae eius eligendi!
+						</span>
 					</div>
 				</div>
 			</section>
