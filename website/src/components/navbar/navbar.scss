@@ -18,6 +18,10 @@
 			gap: 0.4rem;
 			align-items: center;
 
+			@media only screen and (max-width: 600px) {
+				font-size: 1.5rem;
+			}
+
 			.text {
 				font-weight: 600;
 			}
@@ -27,10 +31,17 @@
 	.underneath {
 		padding: 1rem 3rem;
 		display: flex;
+		flex-direction: row;
 		justify-content: space-between;
 		align-items: center;
 		background: $off-white;
 		color: $grey-font;
+
+		// Phone
+		@media only screen and (max-width: 600px) {
+			flex-direction: column;
+			gap: 0.5rem;
+		}
 
 		.logo {
 			font-size: 2rem;
@@ -38,12 +49,22 @@
 				text-transform: upper;
 				font-weight: 600;
 			}
+
+			// Phone
+			@media only screen and (max-width: 600px) {
+				font-size: 4rem;
+			}
 		}
 
 		.links {
 			display: flex;
 			font-size: 1.5rem;
 			gap: 3rem;
+
+			// Phone
+			@media only screen and (max-width: 600px) {
+				font-size: 2.5rem;
+			}
 
 			.link {
 				.linkTitle {

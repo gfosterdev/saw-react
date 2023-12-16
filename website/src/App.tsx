@@ -11,7 +11,7 @@ import Footer from "./components/footer/Footer";
 const App = () => {
 	const Layout = () => {
 		return (
-			<div className="main">
+			<div className="toplevel-main">
 				<Navbar />
 				<Outlet />
 				<Footer />

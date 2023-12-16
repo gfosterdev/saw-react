@@ -10,6 +10,11 @@
 	.heading {
 		font-size: 2rem;
 		color: $grey-dark-font;
+
+		// Phone
+		@media only screen and (max-width: 600px) {
+			font-size: 4rem;
+		}
 	}
 
 	.container {
@@ -22,10 +27,20 @@
 		.main {
 			color: $grey-dark-font;
 			font-size: 1.2rem;
+
+			// Phone
+			@media only screen and (max-width: 600px) {
+				font-size: 1.7rem;
+			}
 		}
 
 		.subtext {
 			font-size: 1rem;
+
+			// Phone
+			@media only screen and (max-width: 600px) {
+				font-size: 1.5rem;
+			}
 		}
 	}
 

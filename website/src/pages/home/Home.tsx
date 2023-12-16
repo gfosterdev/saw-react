@@ -87,7 +87,7 @@ const Home = () => {
 					<span className="main">Case Studies</span>
 					<span className="sub">
 						A glimpse into what Smith & Williamson can provide for
-						your customers
+						customers
 					</span>
 				</div>
 				<div className="cards">
